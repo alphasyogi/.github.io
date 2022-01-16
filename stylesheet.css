@@ -1,8 +1,80 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+  
+li{
+    list-style: none;
+}
+.header{
+    background-color:rgb(19, 114, 117);
+    height:60px;
+}
+.header-logo{
+    float:left;
+    line-height:60px;
+    font-size:24px;
+    padding-left:30px;
+    color:white;
+}
+.header-list{
+    display:inline-block;
+    line-height:60px;
+    margin-left:300px;
+}
+.header-list a{
+    float:left;
+    padding-right:30px;
+    opacity: 0.5;
+    background-color:rgb(96, 213, 218) ;
+    width:160px;
+    text-align: center;
+}
+.header-list a:hover{
+    opacity: 1.0;
+}
+.maincontainer{
+    width:1170px;
+    margin:0 auto;
+    padding-top:100px;
+}
 .title {
-    color: #02ccba;
-    font-size:180px
-  }
-.bosyuu{
-    color:red;
-    font-size:60px
+    color: rgb(84, 144, 223);
+    font-size:100px
+}
+.subtitle{
+    font-size:50px;
+    color:rgb(84, 144, 223);
+}
+.contentscontainer{
+    padding-top:100px;
+    width:1170px;
+    margin: 0 auto;
+}
+.contentscontainer h1{
+    font-size:30px;
+}
+.contentscontainer h2{
+    font-size:15px;
+}
+.contents{
+    margin-top:50px;
+}
+.contact{
+    margin-bottom:100px;
+}
+.footer{
+    height:40px;
+    background-color:rgb(19, 114, 117);
+}
+.footer-logo{
+    color:white;
+    font-size:15px;
+    line-height:40px;
 }
