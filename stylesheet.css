@@ -43,6 +43,7 @@ li{
     width:1170px;
     margin:0 auto;
     padding-top:100px;
+    background-image:url(top.png);
 }
 .title {
     color: rgb(84, 144, 223);
